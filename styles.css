@@ -1,0 +1,38 @@
+body {
+    max-width: 800px;
+    margin: 24px auto;
+    color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-image: url(images/blue-snow.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 5opx;
+}
+body > main {
+    background-color: rgb(251, 251, 240);
+}
+img {
+    float: left;
+}
+header > nav {
+    float: right;
+}
+article {
+    float: left;
+    max-width: 700px;
+}
+/* clearfix */
+main::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+header {
+    margin: 35px 0;
+    font-size: 20px;
+}
+a {
+    color: cornflowerblue;
+}
